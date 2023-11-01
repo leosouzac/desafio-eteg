@@ -1,0 +1,14 @@
+###
+POST http://localhost:3333/form
+Content-Type: application/json
+
+{
+  "name": "Leo",
+  "cpf": "11795993650",
+  "email": "leo@leo.com.br",
+  "color": "preto",
+  "observation": "teste"
+}
+
+###
+GET http://localhost:3333/form/list-forms

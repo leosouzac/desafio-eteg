@@ -100,7 +100,7 @@ export function Form() {
             />
             <Input
               name="cpf"
-              placeholder="Cpf"
+              placeholder="CPF"
               value={form.cpf || ''}
               onChange={handleInputChange}
 

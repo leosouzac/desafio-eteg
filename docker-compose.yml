@@ -7,13 +7,14 @@ services:
       - ./backend:/home/node/api
     extra_hosts:
        - "host.docker.internal:host-gateway"
+    command: npm run dev
 
   app:
     build: ./frontend
     ports:
       - 5173:5173
     volumes:
-      - .frontend:/home/node/app
+      - ./frontend:/home/node/app
     extra_hosts:
       - "host.docker.internal:host-gateway"
 

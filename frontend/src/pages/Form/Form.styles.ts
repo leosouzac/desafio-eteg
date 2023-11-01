@@ -161,7 +161,7 @@ export const FormContainer = styled.div`
 export const Title = styled.h1`
 
   span {
-    font-family: 'Futura';
+    font-family: 'Helvetica';
     font-size: 2.3rem;
     font-style: normal;
     font-weight: 500;

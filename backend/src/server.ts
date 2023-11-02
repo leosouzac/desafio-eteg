@@ -5,5 +5,5 @@ import { startDb } from 'shared/utils/startDb'
 config()
 
 startDb().then(() => {
-  app.listen({ port: Number(process.env.PORT) })
+  app.listen({ port: Number(process.env.PORT), host: '0.0.0.0' })
 })

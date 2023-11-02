@@ -7,7 +7,6 @@ services:
       - ./backend:/home/node/api
     extra_hosts:
        - "host.docker.internal:host-gateway"
-    command: npm run dev
 
   app:
     build: ./frontend
@@ -29,3 +28,4 @@ services:
       - POSTGRES_DB=eteg
     ports:
       - "5432:5432"
+

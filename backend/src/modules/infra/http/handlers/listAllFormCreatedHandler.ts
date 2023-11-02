@@ -1,9 +1,9 @@
-import { FastifyReply } from 'fastify'
+import { FastifyReply, FastifyRequest } from 'fastify'
 import { container } from 'tsyringe'
 import { ListAllFormsCreatedService } from '../../../services/ListAllFormsCreatedService'
 
 export async function listAllFormCreatedHandler(
-  request,
+  request: FastifyRequest,
   reply: FastifyReply,
 ): Promise<void> {
   const listAllFormsCreatedService = container.resolve(

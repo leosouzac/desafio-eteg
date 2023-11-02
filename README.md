@@ -2,24 +2,28 @@
 
 ## Para rodar o desafio utiliz:
 
-### docker compose up
+docker compose up
 
-## Entre no container da api e inicie a api
+# Entre no container da api e inicie a api
 
-### docker exec desafio-eteg-api-1 bash
+docker exec -it desafio-eteg-api-1 bash
 
-### npm run dev
+entre na pasta do app: cd ../api
+
+npm run dev
 
 ## Entre no container da app e inicie o app
 
-### docker exec desafio-eteg-app-1 bash
+docker exec -it desafio-eteg-app-1 bash
 
-### npm run dev
+entre na pasta do app: cd ../app
+
+npm run dev
 
 ## Para rodar os testes
 
-### npm run test
+npm run test
 
 ## Documentação
 
-### http://localhost:3333/documentation
+http://localhost:3333/documentation

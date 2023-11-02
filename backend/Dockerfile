@@ -7,8 +7,6 @@ COPY ./backend /home/node/path
 
 RUN npm install
 
-RUN npm run dev
-
 USER node
 
-CMD ["tail", "-f", "/dev/null"]
+CMD ["tail", "-f", "/dev/null", "npm" ,"run", "dev"]

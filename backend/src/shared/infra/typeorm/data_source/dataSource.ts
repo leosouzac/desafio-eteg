@@ -9,10 +9,7 @@ export const dataSource = new DataSource({
   port: 5432,
   username: process.env.POSTGRESQL_USER,
   password: process.env.POSTGRESQL_PASSWORD,
-  database:
-    process.env.NODE_ENV === 'test'
-      ? 'eteg_test'
-      : process.env.POSTGRESQL_DATABASE,
+  database: process.env.POSTGRESQL_DATABASE,
   synchronize: true,
   logging: false,
   migrationsTableName: 'migration',

@@ -3,12 +3,13 @@ import { FormRepository } from '../../infra/typeorm/repositories/FormRepository'
 import { CreateNewFromsService } from '../../services/CreateNewFromsService'
 import { AppError } from '../../../shared/errors/AppError'
 import { v4 } from 'uuid'
+
 jest.mock('../../infra/typeorm/repositories/FormRepository')
 const formRepositoryMock = FormRepository as jest.MockedClass<
   typeof FormRepository
 >
 
-describe('Create new car service test', () => {
+describe('Create new form service test', () => {
   let createNewFromsService: CreateNewFromsService
 
   beforeEach(async () => {

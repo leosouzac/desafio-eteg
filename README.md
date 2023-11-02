@@ -4,6 +4,8 @@
 
 docker compose up
 
+## Crie o arquivo .env baseado no .env.example
+
 # Entre no container da api e inicie a api
 
 docker exec -it desafio-eteg-api-1 bash

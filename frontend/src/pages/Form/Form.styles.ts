@@ -14,25 +14,8 @@ export const TitleContainer = styled.div`
   align-items: center;
   justify-content: center;
 
-  padding: 0.75rem 1rem;
+  padding: 3rem 1rem;
 
-  svg {
-    margin-right: 0.5rem;
-  }
-
-  h3 {
-    color: var(--color-neutral-01, #111);
-
-    font-family: 'Quicksand';
-    font-size: 0.575rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 1.5rem;
-    letter-spacing: 0.035rem;
-    text-transform: uppercase;
-  }
-
-  margin-bottom: 1.5rem;
 `
 
 export const ContentContainer = styled.div`

@@ -84,7 +84,7 @@ export function Form() {
         
           <TitleContainer>
             <Title>
-              <span style={{ color: '#4169E1' }}>Preencha o formulario</span>
+              <span style={{ color: '#4169E1' }}>Preencha o formulário</span>
             </Title>
           </TitleContainer>
       
